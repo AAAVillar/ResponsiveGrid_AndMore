@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="html5,css3,javascript,Vue.js">
+  <meta name="keywords" content="html5,css3,javascript,Vue.js">
+  <meta name="author" content="mySelf">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- javascript jquery,popper, bootstrap-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+
+
+  <!-- styles -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+  <!-- my Icons for the nav bar -->
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+
+  <link rel="stylesheet" href="styles.css">
+  <title>Responsive images</title>
+</head>
+<!-- comments  -->
+<body>
+  <div class="container " id="bigWrapper">
+    <!--  Nav  -->
+    <ul class="nav bg-dark text-white p-0 justify-content-center border_bottom mb-3 fixed-top">
+      <li class="nav-item ">
+        <a href="#home" class="nav-link text-white myShadow"><i class='fas fa-home' style='font-size:24px'></i> Home</a>
+      </li>
+      <li class="nav-item">
+        <a href="#textColors" class="nav-link text-danger myShadow"><i class='fas fa-palette' style='font-size:24px'></i> Text Colors</a>
+      </li>
+      <li class="nav-item">
+        <a href="#buttons" class="nav-link myShadow"><i class='fas fa-bullseye' style='font-size:24px'></i> Buttons</a>
+      </li>
+      <li class="nav-item">
+        <a href="#Carousel" class="nav-link text-lime myShadow"><i class='far fa-images' style='font-size:24px'></i> Carousel</a>
+      </li>
+      <li class="nav-item">
+        <a href="#form_1" class="nav-link text-warning myShadow "><i class='far fa-edit' style='font-size:24px'></i>Forms</a>
+      </li>
+      <li class="nav-item">
+        <a href="#footer" class="nav-link text-white myShadow"><i class='fas fa-socks' style='font-size:24px'></i> Footer &amp; Today's Date</a>
+      </li>
+    </ul>
+    <!-- Header -->
+    <h2 id="top" align="center" >test</h2>
+    <!-- Photo Grid -->
+    <div class="row"> 
+      <div id = "one" class="column">
+        <img src="w3images/A12.jpg" style="width:100%">
+        <img src="w3images/A13.png" style="width:100%">
+        <img src="w3images/A14.jpg" style="width:100%">
+        <img src="w3images/A15.jpg" style="width:100%">
+        <img src="w3images/A16.png" style="width:100%">
+        <img src="w3images/A17.png" style="width:100%">
+        <img src="w3images/A18.jpg" style="width:100%">
+        <img src="w3images/A39.jpg" style="width:100%">
+        
+
+      </div>
+
+      <div id = "two" class="column">
+        <img src="w3images/A19.png" style="width:100%">
+        <img src="w3images/A20.jpg" style="width:100%">
+        <img src="w3images/A21.png" style="width:100%">
+        <img src="w3images/A22.png" style="width:100%">
+        <img src="w3images/A23.png" style="width:100%">
+        <img src="w3images/A24.png" style="width:100%">
+        <img src="w3images/A38.png" style="width:100%">
+        <img src="w3images/A41.jpg" style="width:100%">
+        <img src="w3images/A40.jpg" style="width:100%">
+      </div>  
+
+      <div id = "three" class="column">
+        <img src="w3images/A25.jpg" style="width:100%">
+        <img src="w3images/A26.jpg" style="width:100%">
+        <img src="w3images/A27.jpg" style="width:100%">
+        <img src="w3images/A28.jpg" style="width:100%">
+        <img src="w3images/A29.jpg" style="width:100%">
+        <img src="w3images/A30.png" style="width:100%">
+
+      </div>
+      
+      <div class="column">
+        <img src="w3images/A31.png" style="width:100%">
+        <img src="w3images/A32.jpeg" style="width:100%">
+        <img src="w3images/A33.png" style="width:100%">
+        
+        
+        <img src="w3images/A34.png" style="width:100%">
+        <img src="w3images/A35.jpg" style="width:100%">
+        <img src="w3images/A36.jpg" style="width:100%">
+        <img src="w3images/A37.jpg" style="width:100%">
+      </div>
+
+    </div>  <!-- End of class row  -->
+  </div>  <!-- End of class="container-fluid" id="bigWrapper" -->
+  <!-- footer  -->
+  <div id="footer" class="container-fluid  col-12 bg-lime text-dark pb-3 pt-3">
+    <!-- nav -->
+    <h2 id="theBottom" class="course-heading  d-flex justify-content-center mb-0 mt-0 pt-1 pb-1  text-white myShadow myBorder"><i class='fas fa-socks' style='font-size:24px'></i>-*footer </h2>
+    <ul class="nav  justify-content-center myShadow myBorder">
+      <li class="nav-item">
+        <a href="#top" class="nav-link text-dark"><i class='fas fa-home' style='font-size:24px'></i> Home</a>
+      </li>
+      <li class="nav-item">
+        <a href="#textColors" class="nav-link text-danger "><i class='fas fa-palette' style='font-size:24px'></i> Text Colors</a>
+      </li>
+      <li class="nav-item">
+        <a href="#buttons" class="nav-link"><i class='fas fa-bullseye ' style='font-size:24px'></i> Buttons</a>
+      </li>
+      <li class="nav-item">
+        <a href="#Carousel" class="nav-link text-teal"><i class='far fa-images' style='font-size:24px'></i> Carousel</a>
+      </li>
+      <li class="nav-item">
+        <a href="#form_1" class="nav-link text-warning myShadow "><i class='far fa-edit myShadow' style='font-size:24px'></i>Forms</a>
+      </li>
+      
+    </ul>
+
+
+    <h3 id = "demo1">test</h3>
+  </div>  <!-- End of the id="footer" -->
+  <script src = "main.js"></script>
+
+</body>
+</html>
