@@ -1,1 +1,5 @@
 https://github.com/AAAVillar/ResponsiveGrid_AndMore.git
+
+git remote is the command you use if you forget the remote
+
+ResponsiveGrid is the remote
