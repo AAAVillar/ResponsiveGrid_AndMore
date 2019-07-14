@@ -11,12 +11,15 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <!-- I added Vue.js -->
   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
 
 
   <!-- styles -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+
   <!-- my Icons for the nav bar -->
   <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
 
@@ -25,9 +28,9 @@
 </head>
 <!-- comments  -->
 <body>
-  <div class="container " id="bigWrapper">
+  <div class="container d-flex" id="bigWrapper">
     <!--  Nav  -->
-    <ul class="nav bg-dark text-white p-0 justify-content-center border_bottom mb-3 fixed-top">
+    <ul class="nav d-inline-flex bg-dark text-white p-0 justify-content-center border_bottom mb-3 fixed-top">
       <li class="nav-item ">
         <a href="#home" class="nav-link text-white myShadow"><i class='fas fa-home' style='font-size:24px'></i> Home</a>
       </li>
@@ -99,7 +102,7 @@
       </div>
 
     </div>  <!-- End of class row  -->
-  </div>  <!-- End of class="container-fluid" id="bigWrapper" -->
+  </div>  <!-- End of class="container d-flex" id="bigWrapper" -->
   <!-- footer  -->
   <div id="footer" class="container-fluid  col-12 bg-lime text-dark pb-3 pt-3">
     <!-- nav -->
